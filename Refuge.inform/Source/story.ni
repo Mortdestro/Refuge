@@ -11,16 +11,18 @@ reality is a truth state that varies. reality is true.
 After reading a command:
 	clear the screen.
 
-Kitchen is a room. "The kitchen is [if reality is true]dirty as hell[otherwise]a fine place to cook[end if]."
+Kitchen is a room. "The kitchen is silent and untouched."
 
-Instead of examining the kitchen:
+The kitchen scenery is scenery in the kitchen. Understand "kitchen" as the kitchen scenery.
+
+Instead of examining the kitchen scenery:
 	try looking.
 
-The refrigerator is in the kitchen.
+The refrigerator is in the kitchen. "There is a [if reality is true]grungy, red[otherwise]pristine, white[end if] refrigerator in the corner."
+
+The description of the refrigerator is "The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser".
 
 After examining the refrigerator:
 	if reality is true:
-		now reality is false;
-	otherwise:
-		now reality is true.
+		now reality is false.
 
