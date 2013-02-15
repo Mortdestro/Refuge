@@ -1,10 +1,35 @@
 "Refuge" by Dan Malear and Edward Ramirez
 
+
+Volume - Set up
+
+
+Book - Uses
+
+
 Use American dialect, the serial comma, and no scoring.
+
+
+Book - Includes
+
 
 Include Basic Screen Effects by Emily Short
 
+
+Volume - Game
+
+
+Book - Definitions
+
+
+
+
+
+Book - Rooms
+
+
 Section - Kitchen
+
 
 reality is a truth state that varies. reality is true.
 
