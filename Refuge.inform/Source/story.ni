@@ -8,7 +8,7 @@ Section - Kitchen
 
 reality is a truth state that varies. reality is true.
 
-Before doing something:
+After reading a command:
 	clear the screen.
 
 Kitchen is a room. "The kitchen is [if reality is true]dirty as hell[otherwise]a fine place to cook[end if]."
