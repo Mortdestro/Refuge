@@ -25,11 +25,34 @@ Book - Definitions and Rules
 Chapter - Definitions
 
 
+The player has a number called insanity. Insanity is 0.
+
+An illusion is a kind of thing.
+
+An illusion has a number called threshold. Threshold is usually 51.
+
+An illusion has a text called real name.
+
+An illusion has a number called index.
+
+Bank is a list of texts that varies. Bank is {"refrigerator", "oven", "microwave"}.
+
+Before looking:
+	Repeat with object running through every illusion in the location:
+		Let rand be a random number between 0 and threshold of object;
+		if insanity of player + rand is at least threshold of object:
+			Say "[insanity of player] + [rand] >= [threshold of object][line break]";
+			Now index of object is a random number between 1 and the number of entries in bank;
+			Now printed name of object is entry index of object of bank;
+		otherwise:
+			Say "[insanity of player] + [rand] < [threshold of object]";
+			Now the printed name of object is real name of object;
+
+
 Chapter - Rules
 
 
 The can't go through undescribed doors rule is not listed in the check going rulebook.
-
 
 After reading a command:
 	clear the screen.
@@ -47,33 +70,18 @@ Book - Rooms
 Chapter - Front Porch
 
 
-Section - Variables
-
-
-dry_wood is a truth state that varies. dry_wood is true.
-
-
 Section - Props
 
 
-The Front Porch is a room. "The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch holds nothing but the [if dry_wood is true]dry,[otherwise]sopping[end if] wooden floor."
+The Front Porch is a room. "The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch has nothing but the dry, wooden floor."
 
 The wooden floor is a backdrop in the porch. The description of it is "The rain has soaked thoroughly into the wood. It will certainly be ruined when the storm passes."
-
-After examining the wooden floor:
-	Now dry_wood is false.
 
 
 Chapter - Kitchen
 
 
-Section - Variables
-
-
-red_fridge is a truth state that varies. red_fridge is true.
-
-
-Chapter - Props
+Section - Props
 
 
 Kitchen is a room. "The kitchen is silent and untouched."
@@ -83,13 +91,11 @@ The kitchen scenery is scenery in the kitchen. Understand "kitchen" as the kitch
 Instead of examining the kitchen scenery:
 	try looking.
 
-The grungy red refrigerator is in the kitchen.  Understand "grungy/red/ fridge" as the refrigerator. "There is a [if red_fridge is true]grungy, red[otherwise]pristine, white[end if] refrigerator in the corner."
+The refrigerator is an illusion in the kitchen.  Understand "fridge" as the refrigerator. "There is [a refrigerator] in the corner."
 
-The description of the refrigerator is "The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser".
+The threshold of the refrigerator is 2. The real name of the refrigerator is "refrigerator".
 
-After examining the refrigerator:
-	if red_fridge is true:
-		now red_fridge is false.
+The description of the refrigerator is "[The refrigerator] looks like it was made recently, with a polished white surface, and an ice/water dispenser. Index: [index]".
 
 
 Book - Doors
