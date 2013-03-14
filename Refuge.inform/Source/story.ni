@@ -29,24 +29,17 @@ The player has a number called insanity. Insanity is 0.
 
 An illusion is a kind of thing.
 
-An illusion has a number called threshold. Threshold is usually 51.
+An illusion has a number called threshold. Threshold is usually 0.
 
 An illusion has a text called real name.
 
 An illusion has a number called index.
 
-Bank is a list of texts that varies. Bank is {"refrigerator", "oven", "microwave"}.
-
-Before looking:
-	Repeat with object running through every illusion in the location:
-		Let rand be a random number between 0 and threshold of object;
-		if insanity of player + rand is at least threshold of object:
-			Say "[insanity of player] + [rand] >= [threshold of object][line break]";
-			Now index of object is a random number between 1 and the number of entries in bank;
-			Now printed name of object is entry index of object of bank;
-		otherwise:
-			Say "[insanity of player] + [rand] < [threshold of object]";
-			Now the printed name of object is real name of object;
+Table - Info
+Name	Object	Type	Description	Used	Used by
+"refrigerator"	"refrigerator"	"kitchen"	"It's a fridge."	true	refrigerator
+"oven"	"oven"	"kitchen"	"It's an oven."	false	--
+"microwave"	"microwave"	"kitchen"	"It's a microwave."	false	--
 
 
 Chapter - Rules
@@ -56,6 +49,53 @@ The can't go through undescribed doors rule is not listed in the check going rul
 
 After reading a command:
 	clear the screen.
+	
+Before looking:
+	Repeat with object running through every illusion in the location:
+		Let rand be a random number between 0 and threshold of object;
+		If insanity of player + rand is at least threshold of object:
+			Say "[insanity of player] + [rand] >= [threshold of object]";
+			Pick a random name for object;
+		Otherwise:
+			Say "[insanity of player] + [rand] < [threshold of object]";
+			If the printed name of the object is not the real name of the object:
+				Say "(Also resetting)";
+				Reset the name of object;
+		Say "[line break]Current table:[line break]";
+		Repeat through table of info:
+			If there is a used by entry:
+				Let test_object be the used by entry;
+				Say "Name: [name entry], Used: [used entry], Used by: [real name of test_object][line break]";
+			Otherwise:
+				Say "Name: [name entry], Used: [used entry], Used by: Nothing[line break]";
+			
+
+To pick a random name for (object - an illusion):
+	Say "(random name called)";
+	Clear from the table object;
+	Sort table of info in random order;
+	Choose a row with a used of false in table of info;
+	Now printed name of object is name entry;
+	Now used entry is true;
+	Now used by entry is object;
+
+To clear from the table (object - an illusion):
+	Say "(clear called)";
+	If object is a used by listed in the table of info:
+		Choose a row with used by of object in table of info;
+		Now used entry is false;
+		Blank out used by entry;
+
+To reset the name of (object - an illusion):
+	Say "(reset called)";
+	Clear from the table object;
+	Choose a row with name of real name of object in table of info;
+	If used entry is true:
+		Let second_object be used by entry;
+		Reset the name of second_object; [RECURSION IN INFORM. FUCK YES.]
+	Now printed name of object is name entry;
+	Now used entry is true;
+	Now used by entry is object;
 
 
 Book - Opening screen

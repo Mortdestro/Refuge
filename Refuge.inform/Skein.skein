@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02BF54A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x028554B8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02C7F0D8"/>
-  <item nodeId="node-0x02BF54A0">
+  <activeNode nodeId="node-0x02861A48"/>
+  <item nodeId="node-0x028554B8">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">You can barely hear yourself think. You were hoping the storm would let up, but it's only getting stronger. You feel your heart racing. If this keeps up, you could very well die. Suddenly, to your right, you see a small house, with a "For Sale" sign on the front lawn.  It will have to do. You move up the walkway, and step onto the front porch, knowing that this is your only hope for refuge.&#x000A;&#x000A;Refuge&#x000A;An Interactive Fiction by Dan Malear and Edward Ramirez&#x000A;Release 1 / Serial number 130304 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Front Porch&#x000A;The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch has nothing but the dry, wooden floor.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can barely hear yourself think. You were hoping the storm would let up, but it's only getting stronger. You feel your heart racing. If this keeps up, you could very well die. Suddenly, to your right, you see a small house, with a "For Sale" sign on the front lawn.  It will have to do. You move up the walkway, and step onto the front porch, knowing that this is your only hope for refuge.&#x000A;&#x000A;Refuge&#x000A;An Interactive Fiction by Dan Malear and Edward Ramirez&#x000A;Release 1 / Serial number 130313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Front Porch&#x000A;The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch has nothing but the dry, wooden floor.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02BF5510"/>
-      <child nodeId="node-0x02BFF360"/>
-      <child nodeId="node-0x02C007C8"/>
-      <child nodeId="node-0x02C00928"/>
-      <child nodeId="node-0x02C00BD0"/>
-      <child nodeId="node-0x02C00FC8"/>
-      <child nodeId="node-0x02C01C08"/>
-      <child nodeId="node-0x02CAE838"/>
+      <child nodeId="node-0x02855A48"/>
+      <child nodeId="node-0x028560F8"/>
+      <child nodeId="node-0x0285F9D0"/>
+      <child nodeId="node-0x0285FB30"/>
+      <child nodeId="node-0x02861818"/>
+      <child nodeId="node-0x02861A48"/>
+      <child nodeId="node-0x0286B878"/>
     </children>
   </item>
-  <item nodeId="node-0x02BF5510">
+  <item nodeId="node-0x02855A48">
     <command xml:space="preserve">ffjh j</command>
     <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -28,10 +27,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BF5580"/>
+      <child nodeId="node-0x02855AB8"/>
     </children>
   </item>
-  <item nodeId="node-0x02BF5580">
+  <item nodeId="node-0x02855AB8">
     <command xml:space="preserve">yes!</command>
     <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -39,10 +38,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BF56A0"/>
+      <child nodeId="node-0x02855B28"/>
     </children>
   </item>
-  <item nodeId="node-0x02BF56A0">
+  <item nodeId="node-0x02855B28">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is dirty as hell.&#x000A;&#x000A;You can see a refrigerator here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -50,10 +49,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BFE8B0"/>
+      <child nodeId="node-0x02855EF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02BFE8B0">
+  <item nodeId="node-0x02855EF8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is dirty as hell.&#x000A;&#x000A;You can see a refrigerator here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -61,10 +60,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BFE920"/>
+      <child nodeId="node-0x02855F68"/>
     </children>
   </item>
-  <item nodeId="node-0x02BFE920">
+  <item nodeId="node-0x02855F68">
     <command xml:space="preserve">fff</command>
     <result xml:space="preserve">That's not a verb I recognize.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -72,10 +71,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BFEA40"/>
+      <child nodeId="node-0x02856088"/>
     </children>
   </item>
-  <item nodeId="node-0x02BFEA40">
+  <item nodeId="node-0x02856088">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is dirty as hell.&#x000A;&#x000A;You can see a refrigerator here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -83,7 +82,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02BFF360">
+  <item nodeId="node-0x028560F8">
     <command xml:space="preserve">x kitchen</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -91,11 +90,11 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02BFF480"/>
-      <child nodeId="node-0x02C01AB8"/>
+      <child nodeId="node-0x0285EEB0"/>
+      <child nodeId="node-0x0285F028"/>
     </children>
   </item>
-  <item nodeId="node-0x02BFF480">
+  <item nodeId="node-0x0285EEB0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is dirty as hell.&#x000A;&#x000A;You can see a refrigerator here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -103,7 +102,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C01AB8">
+  <item nodeId="node-0x0285F028">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -111,10 +110,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01B28"/>
+      <child nodeId="node-0x0285F960"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01B28">
+  <item nodeId="node-0x0285F960">
     <command xml:space="preserve">x kitchen</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -122,7 +121,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C007C8">
+  <item nodeId="node-0x0285F9D0">
     <command xml:space="preserve">x kitchn</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -130,10 +129,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00838"/>
+      <child nodeId="node-0x0285FA40"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00838">
+  <item nodeId="node-0x0285FA40">
     <command xml:space="preserve">x kitchen</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -141,7 +140,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C00928">
+  <item nodeId="node-0x0285FB30">
     <command xml:space="preserve">x refrigerator</command>
     <result xml:space="preserve">You see nothing special about the refrigerator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -149,10 +148,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00A80"/>
+      <child nodeId="node-0x028617A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00A80">
+  <item nodeId="node-0x028617A8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -160,7 +159,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C00BD0">
+  <item nodeId="node-0x02861818">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">The rain has soaked thoroughly into the wood. It will certainly be ruined when the storm passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -168,10 +167,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00E08"/>
+      <child nodeId="node-0x02861888"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00E08">
+  <item nodeId="node-0x02861888">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Front Porch&#x000A;The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch holds nothing but the sopping wooden floor.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -179,10 +178,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00E78"/>
+      <child nodeId="node-0x028618F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00E78">
+  <item nodeId="node-0x028618F8">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a grungy, red refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -190,10 +189,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00EE8"/>
+      <child nodeId="node-0x02861968"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00EE8">
+  <item nodeId="node-0x02861968">
     <command xml:space="preserve">x refrigerator</command>
     <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -201,10 +200,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C00F58"/>
+      <child nodeId="node-0x028619D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C00F58">
+  <item nodeId="node-0x028619D8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -212,7 +211,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C00FC8">
+  <item nodeId="node-0x02861A48">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -220,14 +219,14 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01038"/>
-      <child nodeId="node-0x02C01118"/>
-      <child nodeId="node-0x02C01968"/>
-      <child nodeId="node-0x02C01D58"/>
-      <child nodeId="node-0x02CAE988"/>
+      <child nodeId="node-0x02861AB8"/>
+      <child nodeId="node-0x02861B98"/>
+      <child nodeId="node-0x02862148"/>
+      <child nodeId="node-0x02862298"/>
+      <child nodeId="node-0x02865F70"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01038">
+  <item nodeId="node-0x02861AB8">
     <command xml:space="preserve">actions</command>
     <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -235,10 +234,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C010A8"/>
+      <child nodeId="node-0x02861B28"/>
     </children>
   </item>
-  <item nodeId="node-0x02C010A8">
+  <item nodeId="node-0x02861B28">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">[going north]&#x000A;You can't go that way.&#x000A;[going north - failed the can't go through undescribed doors rule]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -246,7 +245,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C01118">
+  <item nodeId="node-0x02861B98">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -254,10 +253,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01188"/>
+      <child nodeId="node-0x02861C08"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01188">
+  <item nodeId="node-0x02861C08">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -265,10 +264,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C011F8"/>
+      <child nodeId="node-0x02861C78"/>
     </children>
   </item>
-  <item nodeId="node-0x02C011F8">
+  <item nodeId="node-0x02861C78">
     <command xml:space="preserve">x grungy red fridge</command>
     <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -276,10 +275,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01268"/>
+      <child nodeId="node-0x02861CE8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01268">
+  <item nodeId="node-0x02861CE8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -287,10 +286,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C012D8"/>
+      <child nodeId="node-0x02861D58"/>
     </children>
   </item>
-  <item nodeId="node-0x02C012D8">
+  <item nodeId="node-0x02861D58">
     <command xml:space="preserve">x poop fridge</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -298,10 +297,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01348"/>
+      <child nodeId="node-0x02861DC8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01348">
+  <item nodeId="node-0x02861DC8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -309,10 +308,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C013B8"/>
+      <child nodeId="node-0x02861E38"/>
     </children>
   </item>
-  <item nodeId="node-0x02C013B8">
+  <item nodeId="node-0x02861E38">
     <command xml:space="preserve">x red fridge</command>
     <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -320,10 +319,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01428"/>
+      <child nodeId="node-0x02861EA8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01428">
+  <item nodeId="node-0x02861EA8">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -331,10 +330,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01498"/>
+      <child nodeId="node-0x02861F18"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01498">
+  <item nodeId="node-0x02861F18">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -342,10 +341,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01508"/>
+      <child nodeId="node-0x02861F88"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01508">
+  <item nodeId="node-0x02861F88">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a pristine, white refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -353,10 +352,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01578"/>
+      <child nodeId="node-0x02861FF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01578">
+  <item nodeId="node-0x02861FF8">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -364,10 +363,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C015E8"/>
+      <child nodeId="node-0x02862068"/>
     </children>
   </item>
-  <item nodeId="node-0x02C015E8">
+  <item nodeId="node-0x02862068">
     <command xml:space="preserve">quit</command>
     <result xml:space="preserve">Are you sure you want to quit?</result>
     <commentary xml:space="preserve"></commentary>
@@ -375,10 +374,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01658"/>
+      <child nodeId="node-0x028620D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01658">
+  <item nodeId="node-0x028620D8">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -386,7 +385,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C01968">
+  <item nodeId="node-0x02862148">
     <command xml:space="preserve">x kitchen</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -394,10 +393,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C019D8"/>
+      <child nodeId="node-0x028621B8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C019D8">
+  <item nodeId="node-0x028621B8">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">(the refrigerator)&#x000A;The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -405,10 +404,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C01A48"/>
+      <child nodeId="node-0x02862228"/>
     </children>
   </item>
-  <item nodeId="node-0x02C01A48">
+  <item nodeId="node-0x02862228">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -416,7 +415,293 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C01D58">
+  <item nodeId="node-0x02862298">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2(random name called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: true, Used by: refrigerator&#x000A;Name: refrigerator, Used: false, Used by: Nothing&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862308"/>
+      <child nodeId="node-0x0290FB78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862308">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2(reset called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;Name: refrigerator, Used: true, Used by: refrigerator&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862378"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862378">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2(reset called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;Name: refrigerator, Used: true, Used by: refrigerator&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028623E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028623E8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 1 &lt; 2(reset called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;Name: refrigerator, Used: true, Used by: refrigerator&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862458"/>
+      <child nodeId="node-0x02865E90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862458">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2(reset called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;Name: refrigerator, Used: true, Used by: refrigerator&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028624C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028624C8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862538">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028625A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028625A8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862618">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02862688"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02862688">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028626F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028626F8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865870"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865870">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028658E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028658E0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865950"/>
+      <child nodeId="node-0x0286BF78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865950">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028659C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028659C0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865A30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865A30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865AA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865AA0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865B10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865B10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865B80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865B80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865BF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865BF0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865C60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865C60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865CD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865CD0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865D40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865D40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865DB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865DB0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865E20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865E20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0286BF78">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286BF08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286BF08">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -424,272 +709,51 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C3C3C0"/>
+      <child nodeId="node-0x0286BE98"/>
     </children>
   </item>
-  <item nodeId="node-0x02C3C3C0">
+  <item nodeId="node-0x0286BE98">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C3C4A0"/>
+      <child nodeId="node-0x0286BFE8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C3C4A0">
+  <item nodeId="node-0x0286BFE8">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C3C510"/>
+      <child nodeId="node-0x0286C058"/>
     </children>
   </item>
-  <item nodeId="node-0x02C3C510">
+  <item nodeId="node-0x0286C058">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C580"/>
-      <child nodeId="node-0x02C6D0D8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C580">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 &gt;= 02 = 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C5F0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C5F0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 &gt;= 0&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C660"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C660">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 &gt;= 0&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C6D0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C6D0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 &gt;= 0&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C740"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C740">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 &gt;= 0&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C7B0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C7B0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C820"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C820">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C890"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C890">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C3C900"/>
+      <child nodeId="node-0x0286C0C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C3C900">
+  <item nodeId="node-0x0286C0C8">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C970"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C970">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3C9E0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3C9E0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3CA50"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3CA50">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3CAC0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3CAC0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C3CB30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C3CB30">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE448"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE448">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE4B8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE4B8">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE528"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE528">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE598"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE598">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE608"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE608">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE678"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE678">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE6E8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE6E8">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Index: 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C6D0D8">
+  <item nodeId="node-0x02865E90">
     <command xml:space="preserve">x refrigerator</command>
     <result xml:space="preserve">The oven looks like it was made recently, with a polished white surface, and an ice/water dispenser. Index: 2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -697,10 +761,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C7F0D8"/>
+      <child nodeId="node-0x02865F00"/>
     </children>
   </item>
-  <item nodeId="node-0x02C7F0D8">
+  <item nodeId="node-0x02865F00">
     <command xml:space="preserve">x oven</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -708,7 +772,59 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02CAE988">
+  <item nodeId="node-0x0290FB78">
+    <command xml:space="preserve">reset refrigerator</command>
+    <result xml:space="preserve">(reset called)(clear called)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0290FBE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0290FBE8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2(random name called)(clear called)&#x000A;Current table:&#x000A;Name: oven, Used: true, Used by: refrigerator&#x000A;Name: refrigerator, Used: false, Used by: Nothing&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0290FC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0290FC58">
+    <command xml:space="preserve">reset fridge</command>
+    <result xml:space="preserve">(reset called)(clear called)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0290FCC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0290FCC8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 2 &gt;= 2(random name called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: true, Used by: refrigerator&#x000A;Name: refrigerator, Used: false, Used by: Nothing&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0290FD38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0290FD38">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">0 + 0 &lt; 2(reset called)(clear called)&#x000A;Current table:&#x000A;Name: microwave, Used: false, Used by: Nothing&#x000A;Name: refrigerator, Used: false, Used by: refrigerator&#x000A;Name: oven, Used: false, Used by: Nothing&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02865F70">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -716,21 +832,21 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02CAE9F8"/>
+      <child nodeId="node-0x02865FE0"/>
     </children>
   </item>
-  <item nodeId="node-0x02CAE9F8">
+  <item nodeId="node-0x02865FE0">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;Index: &#x000A;*** Run-time problem P31: Attempt to use a property of the 'nothing' non-object: property index&#x000A;&#x000A;0&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an object#48 in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02CAEA68"/>
+      <child nodeId="node-0x02866050"/>
     </children>
   </item>
-  <item nodeId="node-0x02CAEA68">
+  <item nodeId="node-0x02866050">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -738,10 +854,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02CAEAD8"/>
+      <child nodeId="node-0x028660C0"/>
     </children>
   </item>
-  <item nodeId="node-0x02CAEAD8">
+  <item nodeId="node-0x028660C0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -749,10 +865,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02CAEB48"/>
+      <child nodeId="node-0x02866130"/>
     </children>
   </item>
-  <item nodeId="node-0x02CAEB48">
+  <item nodeId="node-0x02866130">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -760,10 +876,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02CAEBB8"/>
+      <child nodeId="node-0x028661A0"/>
     </children>
   </item>
-  <item nodeId="node-0x02CAEBB8">
+  <item nodeId="node-0x028661A0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -771,10 +887,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6C968"/>
+      <child nodeId="node-0x02866210"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6C968">
+  <item nodeId="node-0x02866210">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -782,10 +898,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6C9D8"/>
+      <child nodeId="node-0x02866280"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6C9D8">
+  <item nodeId="node-0x02866280">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -793,10 +909,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CA48"/>
+      <child nodeId="node-0x028662F0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CA48">
+  <item nodeId="node-0x028662F0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -804,10 +920,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CAB8"/>
+      <child nodeId="node-0x02866360"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CAB8">
+  <item nodeId="node-0x02866360">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -815,10 +931,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CB28"/>
+      <child nodeId="node-0x028663D0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CB28">
+  <item nodeId="node-0x028663D0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -826,10 +942,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CB98"/>
+      <child nodeId="node-0x02866440"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CB98">
+  <item nodeId="node-0x02866440">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -837,10 +953,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CC08"/>
+      <child nodeId="node-0x028664B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CC08">
+  <item nodeId="node-0x028664B0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -848,10 +964,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CC78"/>
+      <child nodeId="node-0x02866520"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CC78">
+  <item nodeId="node-0x02866520">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -859,10 +975,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CCE8"/>
+      <child nodeId="node-0x02866590"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CCE8">
+  <item nodeId="node-0x02866590">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -870,10 +986,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CD58"/>
+      <child nodeId="node-0x02866600"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CD58">
+  <item nodeId="node-0x02866600">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is an oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -881,10 +997,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CDC8"/>
+      <child nodeId="node-0x02866670"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CDC8">
+  <item nodeId="node-0x02866670">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 1 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -892,10 +1008,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CE38"/>
+      <child nodeId="node-0x028666E0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CE38">
+  <item nodeId="node-0x028666E0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 0 &lt; 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -903,10 +1019,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CEA8"/>
+      <child nodeId="node-0x02866750"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CEA8">
+  <item nodeId="node-0x02866750">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -914,10 +1030,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CF18"/>
+      <child nodeId="node-0x028667C0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CF18">
+  <item nodeId="node-0x028667C0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -925,10 +1041,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CF88"/>
+      <child nodeId="node-0x0286B728"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CF88">
+  <item nodeId="node-0x0286B728">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 + 2 &gt;= 2&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -936,10 +1052,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6CFF8"/>
+      <child nodeId="node-0x0286B798"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6CFF8">
+  <item nodeId="node-0x0286B798">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 &gt;= 00 != 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -947,10 +1063,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C6D068"/>
+      <child nodeId="node-0x0286B808"/>
     </children>
   </item>
-  <item nodeId="node-0x02C6D068">
+  <item nodeId="node-0x0286B808">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">0 &gt;= 01 != 2&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -958,83 +1074,9 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C01C08">
+  <item nodeId="node-0x0286B878">
     <command xml:space="preserve">x fridge</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C01B98"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C01B98">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C01CE8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C01CE8">
-    <command xml:space="preserve">x fridge</command>
-    <result xml:space="preserve">The refrigerator looks like it was made recently, with a polished white surface, and an ice/water dispenser. Min: 0, Max: 2&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x02CAE838">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Front Porch&#x000A;The front porch is hardly a respite; there is no cover from the storm whatsoever. Other than the light, wooden railing surrounding it, the porch has nothing but the dry, wooden floor.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE7C8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE7C8">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a refrigerator in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE758"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE758">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a microwave in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE8A8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE8A8">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a oven in the corner.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02CAE918"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02CAE918">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Kitchen&#x000A;The kitchen is silent and untouched.&#x000A;&#x000A;There is a oven in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
