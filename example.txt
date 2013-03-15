@@ -1,0 +1,17 @@
+Table - Info
+Index		Name			Room		Clause				Used		Used by
+refrigerator	"refrigerator"		kitchen		"recently made"			true		refrigerator
+stove		"stove"			kitchen		"off at the moment"		false		--
+oven		"oven"			kitchen		"ready for baking"		false		--
+								
+The kitchen is a room.
+
+The refrigerator is an illusion. The refrigerator is real. The real name of the refrigerator is "refrigerator".
+
+The description of the refrigerator is "In the corner sits [a refrigerator], [clause]".
+
+Understand "fridge" as the refrigerator.
+
+The stove is an illusion. The real name of it is "stove".
+
+The oven is an illusion. The real name of it is "oven".

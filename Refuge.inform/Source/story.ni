@@ -29,21 +29,43 @@ The player has a number called insanity. Insanity is 0.
 
 An illusion is a kind of thing.
 
-An illusion has a number called threshold. Threshold is usually 0.
+An illusion has a number called threshold. Threshold is usually -1.
 
-An illusion has a text called real name.
+An illusion has a text called real name. An illusion has a text called clause.
 
-An illusion has a number called index.
+An illusion can be real or fake. An illusion is usually fake.
+
+A fake illusion is usually undescribed.
 
 Table - Info
-Name	Object	Type	Description	Used	Used by
-"refrigerator"	"refrigerator"	"kitchen"	"It's a fridge."	true	refrigerator
-"oven"	"oven"	"kitchen"	"It's an oven."	false	--
-"microwave"	"microwave"	"kitchen"	"It's a microwave."	false	--
+Index	Name	Room	Clause	Used	Used by
+refrigerator	"refrigerator"	kitchen	"recently made"	true	refrigerator
+oven	"oven"	kitchen	"ready for baking"	false	--
+microwave	"microwave"	kitchen	"with a blinking clock"	false	--
+stove	"stove"	kitchen	"off at the moment"	false	--
 
 
 Chapter - Rules
 
+
+After going somewhere:
+	Repeat with object running through every illusion:
+		Move object to the location;
+	Try looking;
+
+Special examining is an action applying to one thing.
+
+Carry out special examining:
+	If the noun is an index listed in table of info:
+		Choose row with index of noun in table of info;
+		If there is a used by entry:
+			Say "[description of the used by entry][paragraph break]";
+		Otherwise:
+			Say "You can't see [a real name of noun].[paragraph break]";
+	Otherwise:
+		Say "You can't see [a real name of noun].[paragraph break]";
+
+Instead of examining an illusion, try special examining the noun.
 
 The can't go through undescribed doors rule is not listed in the check going rulebook.
 
@@ -51,23 +73,25 @@ After reading a command:
 	clear the screen.
 	
 Before looking:
-	Repeat with object running through every illusion in the location:
-		Let rand be a random number between 0 and threshold of object;
-		If insanity of player + rand is at least threshold of object:
-			Say "[insanity of player] + [rand] >= [threshold of object]";
-			Pick a random name for object;
+	Say "[line break]Current table:[line break]";
+	Repeat through table of info:
+		If there is a used by entry:
+			Let test_object be the used by entry;
+			Say "Name: [name entry], Used: [used entry], Used by: [real name of test_object][line break]";
 		Otherwise:
-			Say "[insanity of player] + [rand] < [threshold of object]";
-			If the printed name of the object is not the real name of the object:
-				Say "(Also resetting)";
-				Reset the name of object;
-		Say "[line break]Current table:[line break]";
-		Repeat through table of info:
-			If there is a used by entry:
-				Let test_object be the used by entry;
-				Say "Name: [name entry], Used: [used entry], Used by: [real name of test_object][line break]";
+			Say "Name: [name entry], Used: [used entry], Used by: Nothing[line break]";
+	Repeat with object running through every illusion in the location:
+		If object is real:
+			Let rand be a random number between 0 and threshold of object;
+			If insanity of player + rand is at least threshold of object:
+				Say "[insanity of player] + [rand] >= [threshold of object]";
+				Pick a random name for object;
 			Otherwise:
-				Say "Name: [name entry], Used: [used entry], Used by: Nothing[line break]";
+				Say "[insanity of player] + [rand] < [threshold of object]";
+				If the printed name of the object is not the real name of the object:
+					Say "(Also resetting)";
+					Reset the name of object;
+		
 			
 
 To pick a random name for (object - an illusion):
@@ -76,6 +100,7 @@ To pick a random name for (object - an illusion):
 	Sort table of info in random order;
 	Choose a row with a used of false in table of info;
 	Now printed name of object is name entry;
+	Now clause of object is clause entry;
 	Now used entry is true;
 	Now used by entry is object;
 
@@ -94,6 +119,7 @@ To reset the name of (object - an illusion):
 		Let second_object be used by entry;
 		Reset the name of second_object; [RECURSION IN INFORM. FUCK YES.]
 	Now printed name of object is name entry;
+	Now clause of object is clause entry;
 	Now used entry is true;
 	Now used by entry is object;
 
@@ -101,7 +127,8 @@ To reset the name of (object - an illusion):
 Book - Opening screen
 
 
-When play begins, say "You can barely hear yourself think. You were hoping the storm would let up, but it's only getting stronger. You feel your heart racing. If this keeps up, you could very well die. Suddenly, to your right, you see a small house, with a 'For Sale' sign on the front lawn.  It will have to do. You move up the walkway, and step onto the front porch, knowing that this is your only hope for refuge.".
+When play begins:
+	Say "You can barely hear yourself think. You were hoping the storm would let up, but it's only getting stronger. You feel your heart racing. If this keeps up, you could very well die. Suddenly, to your right, you see a small house, with a 'For Sale' sign on the front lawn.  It will have to do. You move up the walkway, and step onto the front porch, knowing that this is your only hope for refuge.".
 
 
 Book - Rooms
@@ -131,11 +158,19 @@ The kitchen scenery is scenery in the kitchen. Understand "kitchen" as the kitch
 Instead of examining the kitchen scenery:
 	try looking.
 
-The refrigerator is an illusion in the kitchen.  Understand "fridge" as the refrigerator. "There is [a refrigerator] in the corner."
+The refrigerator is an illusion.  Understand "fridge" as the refrigerator. "There is [a refrigerator] in the corner."
 
-The threshold of the refrigerator is 2. The real name of the refrigerator is "refrigerator".
+The threshold of the refrigerator is 2. The real name of the refrigerator is "refrigerator". The refrigerator is real.
 
-The description of the refrigerator is "[The refrigerator] looks like it was made recently, with a polished white surface, and an ice/water dispenser. Index: [index]".
+The clause of the refrigerator is "recently made.".
+
+The description of the refrigerator is "In the corner sits [a refrigerator], [clause].".
+
+The oven is an illusion. The real name of it is "oven".
+
+The microwave is an illusion. The real name of it is "microwave".
+
+The stove is an illusion. The real name of it is "stove".
 
 
 Book - Doors
